@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ReactDOM from 'react-dom';
 import Carousel from './components/carousel';
 import Header from './components/header';
-import Main from './components/main';
+import Main from './components/section';
 import Footer from './components/footer';
 
 const restEndpoint = "https://api.pexels.com/v1/search?query=nature&per_page=10&locale=pt-BR";
